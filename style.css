@@ -6,3 +6,79 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+
+.max-width {
+    max-width:  1300px;
+    margin: auto;
+    padding: 0 80px;
+}
+
+/*nav styling */
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    padding: 15px 0;
+    background: rgb(105, 156, 105);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu li a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    margin-left: 25px;
+}
+
+/* home section */
+
+.home {
+    display: flex;
+    background: url(/img/pirmas.png);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+}
+
+.home .max-width {
+    margin: auto 0 auto 40px;
+}
+
+.home .home-content .text1 {
+    font-size: 27px;
+}
+
+.home .home-content .text2 {
+    font-size: 55px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+
+.home .home-content .text3 {
+    font-size: 33px;  
+    margin: 5px 0;
+}
+
+.home .home-content .text3 span{
+    color: rgb(105, 156, 105);
+    font-weight: 600;
+}
