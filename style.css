@@ -19,7 +19,7 @@
     position: fixed;
     width: 100%;
     padding: 15px 0;
-    background: rgb(105, 156, 105);
+    /* background: rgb(105, 156, 105); */
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -35,6 +35,10 @@
     font-weight: 600;
 }
 
+.navbar .logo a span {
+    color: rgb(105, 156, 105);
+}
+
 .navbar .menu li {
     list-style: none;
     display: inline-block;
@@ -45,8 +49,12 @@
     font-size: 18px;
     font-weight: 300;
     margin-left: 25px;
+    transition: color 0.3s ease;
 }
 
+.navbar .menu li a:hover {
+    color: rgb(105, 156, 105);
+}
 /* home section */
 
 .home {
