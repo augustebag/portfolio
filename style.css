@@ -19,8 +19,13 @@
     position: fixed;
     width: 100%;
     padding: 15px 0;
-    /* background: rgb(105, 156, 105); */
     font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3 ease;
+}
+
+.navbar .sticky {
+    padding: 15px 0;
+    background: rgb(105, 156, 105);
 }
 
 .navbar .max-width {
@@ -37,6 +42,11 @@
 
 .navbar .logo a span {
     color: rgb(105, 156, 105);
+    transition: all 0.3 ease;
+}
+
+.navbar .sticky .logo a span {
+    color: #fff;
 }
 
 .navbar .menu li {
@@ -54,6 +64,10 @@
 
 .navbar .menu li a:hover {
     color: rgb(105, 156, 105);
+}
+
+.navbar .sticky .menu li a:hover {
+    color: #fff;
 }
 /* home section */
 
